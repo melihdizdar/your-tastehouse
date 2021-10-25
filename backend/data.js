@@ -11,15 +11,15 @@ const data = {
     ],
     slider:[
         {
-            sliderimage:'',
+            sliderimage:'/images/slider1.png',
             sliderheader:'Buğdaydan gelen lezzetler',
         },
         {
-            sliderimage:'',
+            sliderimage:'/images/slider2.png',
             sliderheader:'El yapımı ürünler',
         },
         {
-            sliderimage:'',
+            sliderimage:'/images/slider3.png',
             sliderheader:'Organik lezzetler',
         }
     ],
