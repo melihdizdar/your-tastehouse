@@ -1,0 +1,35 @@
+.Muhammara{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.MuhammaraHeader{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-top: 5%;
+}
+.MuhammaraBar{
+    width: 24%;
+    height: 1px;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-left: 38%;
+    background-color: #a76e81;
+}
+.MuhammaraTabs:enabled{
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: #a76e81;
+}
+.MuhammaraTabs:enabled.active{
+    background-color: white;
+    border-color: #a76e81;
+    color: #a76e81;
+}
+.MuhammaraTabs:enabled:hover{
+    opacity: 0.8;
+}
