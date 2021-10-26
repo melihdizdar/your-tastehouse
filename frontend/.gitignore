@@ -41,3 +41,20 @@ yarn-error.log*# See https://help.github.com/articles/ignoring-files/ for more a
 .env.production.local
 
 npm-debug.log*
+/src/images/biber_salcasi.png
+/src/images/domates_salcasi.png
+/src/images/fistik_ezmesi.png
+/src/images/karabiber.png
+/src/images/kimyon.png
+/src/images/kirmizi_toz_biber.png
+/src/images/kuru_dolma.png
+/src/images/kuru_nane.png
+/src/images/nar_eksisi.png
+/src/images/tarcin.png
+/src/images/uzum_pekmezi.png
+/src/images/zeytinyagi.png
+/src/images/slider1.png
+/src/images/slider2.png
+/src/images/slider3.png
+/src/images/cles.png
+/src/images/cleb.png

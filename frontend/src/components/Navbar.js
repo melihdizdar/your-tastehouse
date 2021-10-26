@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./NavBar.css";
-import logo from "../../pictures/cles.png";
+import "./Navbar.css";
+import logo from "../images/cles.png";
 
 function NavBar() {
   const [click, setClick] = useState(false);
