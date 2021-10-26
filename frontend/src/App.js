@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
+import ContactScreen from './screens/ContactScreen';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <div className="grid-container">
         <NavBar/>
         <main>
-          <Route path="/" component={HomeScreen} exact></Route>
+          <Route path="/" component={HomeScreen} exact/>
+          <Route path="/contact" component={ContactScreen}/>
         </main>
         <Footer/>
       </div>
