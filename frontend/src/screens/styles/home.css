@@ -82,6 +82,9 @@
     width: 100%;
     text-align: center;
 }
+.CardCarouselContent{
+    margin-left: 3%;
+}
 .CardCarouselItem{
     width: 250px;
     height: 250px;
