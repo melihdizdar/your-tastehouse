@@ -18,6 +18,7 @@ import kuru_nane from "../images/kuru_nane.png";
 import kuru_dolma from "../images/kuru_dolma.png";
 import nar_eksisi from "../images/nar_eksisi.png";
 import uzum_pekmezi from "../images/uzum_pekmezi.png";
+import './styles/home.css'
 
 export default function HomeScreen() {
     return (

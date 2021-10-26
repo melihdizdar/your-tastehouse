@@ -1,0 +1,94 @@
+/*Slider*/
+.slider{
+    text-align: center;
+}
+.slideritem{
+    height: 650px;
+    width: 100%;
+}
+.slideritemtext{
+    font-size: 50px;
+    text-align: left;
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+.slideritemtextposition{
+    margin-bottom: 12%;
+    margin-right: 30%;
+    margin-left: -10%;
+    text-align: left;
+}
+.slideritemtext2{
+    font-size: 50px;
+    text-align: left;
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+.slideritemtextposition2{
+    margin-bottom: 12%;
+    margin-right: 30%;
+    margin-left: -10%;
+    text-align: left;
+}
+.slideritemtext3{
+    font-size: 50px;
+    text-align: left;
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+.slideritemtextposition3{
+    margin-bottom: 12%;
+    margin-right: 30%;
+    margin-left: -10%;
+    text-align: left;
+}
+/*Text Stage*/
+.textHeader{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+}
+.textStage{
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+.textContent{
+    width: 85%;
+}
+.textContentP{
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 15px;
+}
+/*Bar Start*/
+.lebar{
+    width: 18%;
+    height: 1px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    background-color: #a76e81;
+}
+.hproductheaderbar{
+    width: 17%;
+    height: 1px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    background-color: #a76e81;
+}
+/*Card Carousel*/
+.CardCarousel{
+    width: 100%;
+    text-align: center;
+}
+.CardCarouselItem{
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    cursor: pointer;
+    border-radius: 3%;
+}
+.CardCarouselItem:hover{
+    opacity: 0.6;
+}
