@@ -1,7 +1,8 @@
 import React from 'react';
 //import 'react-responsive-carousel/lib/styles/carousel.min.css';
 //import { Carousel } from 'react-responsive-carousel';
-import {Carousel,CardGroup} from "react-bootstrap";
+import {Carousel,CardGroup,Card,Row,Col,Button} from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide'
 import slider1 from "../images/slider1.png";
 import slider2 from "../images/slider2.png";
@@ -80,6 +81,143 @@ export default function HomeScreen() {
             <div className="textStage">
                 <div className="textHeader">EL YAPIMI ÜRÜNLER</div>
                 <div className="hproductheaderbar"></div>
+            </div>
+            <div className="HProducts">
+                {/*Card1*/}
+                <Card className="HProductCard">
+                    <Row>
+                        <Col md={4} lg={4}>
+                            <div className="HProductImageStage">
+                                <Slide left>
+                                    <Link to="/stuffedmeatballs"><Button className="HProductImage"/></Link>
+                                </Slide>
+                            </div>
+                        </Col>
+                        <Col className="HProductContentStage">
+                            <Slide left>
+                                <Card.Body>
+                                    <Card.Title className="HProductContentHeader">İçli Köfte</Card.Title>
+                                    <div className="HProductsBar"></div>
+                                    <Card.Text className="HProductContentText">
+                                    <p>İster 5 çayının, ister akşam yemeğinin en özel vazgeçilmezi...</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Slide>
+                        </Col>
+                    </Row>
+                </Card>
+                {/*Card2*/}
+                <Card className="HProductCard">
+                    <Row>
+                        <Col md={4} lg={4}>
+                            <div className="HProductImageStage">
+                                <Slide left>
+                                    <Link to="/turkishravioli"><Button className="HProductImage2"/></Link>
+                                </Slide>
+                            </div>
+                        </Col>
+                        <Col className="HProductContentStage">
+                            <Slide left>
+                                <Card.Body>
+                                    <Card.Title className="HProductContentHeader">Mantı</Card.Title>
+                                    <div className="HProductsBar2"></div>
+                                    <Card.Text className="HProductContentText">
+                                    <p>Sarımsaklı yoğurt ve tereyağlı sosuyla hayır diyemiyeceğiniz en güzel lezzet...</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Slide>
+                        </Col>
+                    </Row>
+                </Card>
+                {/*Card3*/}
+                <Card className="HProductCard">
+                    <Row>
+                        <Col md={4} lg={4}>
+                            <div className="HProductImageStage">
+                                <Slide left>
+                                    <Link to="/bosnianpastry"><Button className="HProductImage3"/></Link>
+                                </Slide>
+                            </div>
+                        </Col>
+                        <Col className="HProductContentStage">
+                            <Slide left>
+                                <Card.Body>
+                                    <Card.Title className="HProductContentHeader">Boşnak Böreği</Card.Title>
+                                    <div className="HProductsBar3"></div>
+                                    <Card.Text className="HProductContentText">
+                                    <p>Kat kat açılıp, çıtır çıtır pişen efsane lezzet...</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Slide>
+                        </Col>
+                    </Row>
+                </Card>
+                <Card className="HProductCard">
+                    <Row>
+                        <Col md={4} lg={4}>
+                            <div className="HProductImageStage">
+                                <Slide left>
+                                    <Link to="/stuffeddish"><Button className="HProductImage4"/></Link>
+                                </Slide>
+                            </div>
+                        </Col>
+                        <Col className="HProductContentStage">
+                            <Slide left>
+                                <Card.Body>
+                                    <Card.Title className="HProductContentHeader">Zeytinyağlı Sarma</Card.Title>
+                                    <div className="HProductsBar3"></div>
+                                    <Card.Text className="HProductContentText">
+                                    <p>Ege'nin en güzel zeytinyağlısıyla sofranıza ayrı bir lezzet katın...</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Slide>
+                        </Col>
+                    </Row>
+                </Card>
+                <Card className="HProductCard">
+                    <Row>
+                        <Col md={4} lg={4}>
+                            <div className="HProductImageStage">
+                                <Slide left>
+                                    <Link to="/muhammara"><Button className="HProductImage5"/></Link>
+                                </Slide>
+                            </div>
+                        </Col>
+                        <Col className="HProductContentStage">
+                            <Slide left>
+                                <Card.Body>
+                                    <Card.Title className="HProductContentHeader">Muhammara</Card.Title>
+                                    <div className="HProductsBar3"></div>
+                                    <Card.Text className="HProductContentText">
+                                    <p>En tatlı acılı muhammarayı denemeye hazırmısınız?</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Slide>
+                        </Col>
+                    </Row>
+                </Card>
+                <Card className="HProductCard">
+                    <Row>
+                        <Col md={4} lg={4}>
+                            <div className="HProductImageStage">
+                                <Slide left>
+                                    <Link to="/muhammara"><Button className="HProductImage6"/></Link>
+                                </Slide>
+                            </div>
+                        </Col>
+                        <Col className="HProductContentStage">
+                            <Slide left>
+                                <Card.Body>
+                                    <Card.Title className="HProductContentHeader">Çocuk Menüsü</Card.Title>
+                                    <div className="HProductsBar3"></div>
+                                    <Card.Text className="HProductContentText">
+                                    <p>Çocuklara özel acısız içli köfte...</p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Slide>
+                        </Col>
+                    </Row>
+                </Card>
             </div>
             <div className="textStage">
                 <div className="textHeader">ORGANİK ÜRÜNLER</div>
