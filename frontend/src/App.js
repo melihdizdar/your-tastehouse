@@ -8,6 +8,7 @@ import ContactScreen from './screens/ContactScreen';
 import ProductsScreen from './screens/ProductsScreen';
 import HandmadeScreen from './screens/HandmadeScreen';
 import OrganicScreen from './screens/OrganicScreen';
+import BosnianPastryScreen from './screens/BosnianPastryScreen';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/products" component={ProductsScreen}/>
           <Route path="/handmade" component={HandmadeScreen}/>
           <Route path="/organic" component={OrganicScreen}/>
+          <Route path="/bosnianpastry" component={BosnianPastryScreen}/>
         </main>
         <Footer/>
       </div>
