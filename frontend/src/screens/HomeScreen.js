@@ -201,7 +201,7 @@ export default function HomeScreen() {
                         <Col md={4} lg={4}>
                             <div className="HProductImageStage">
                                 <Slide left>
-                                    <Link to="/muhammara"><Button className="HProductImage6"/></Link>
+                                    <Link to="/handmade"><Button className="HProductImage6"/></Link>
                                 </Slide>
                             </div>
                         </Col>
