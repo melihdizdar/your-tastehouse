@@ -9,6 +9,7 @@ import ProductsScreen from './screens/ProductsScreen';
 import HandmadeScreen from './screens/HandmadeScreen';
 import OrganicScreen from './screens/OrganicScreen';
 import BosnianPastryScreen from './screens/BosnianPastryScreen';
+import TurkishRavioliScreen from './screens/TurkishRavioliScreen';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/handmade" component={HandmadeScreen}/>
           <Route path="/organic" component={OrganicScreen}/>
           <Route path="/bosnianpastry" component={BosnianPastryScreen}/>
+          <Route path="/turkishravioli" component={TurkishRavioliScreen}/>
         </main>
         <Footer/>
       </div>
