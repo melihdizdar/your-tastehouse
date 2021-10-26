@@ -11,6 +11,7 @@ import OrganicScreen from './screens/OrganicScreen';
 import BosnianPastryScreen from './screens/BosnianPastryScreen';
 import TurkishRavioliScreen from './screens/TurkishRavioliScreen';
 import StuffedMeatBallsScreen from './screens/StuffedMeatBallsScreen';
+import StuffedDishScreen from './screens/StuffedDishScreen';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/bosnianpastry" component={BosnianPastryScreen}/>
           <Route path="/turkishravioli" component={TurkishRavioliScreen}/>
           <Route path="/stuffedmeatballs" component={StuffedMeatBallsScreen}/>
+          <Route path="/stuffeddish" component={StuffedDishScreen}/>
         </main>
         <Footer/>
       </div>
