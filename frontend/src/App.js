@@ -1,11 +1,8 @@
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="uk-section">
-      <div className="uk-container cs-test">
-        Hello World
-      </div>
-    </div>
+    <Navbar/>
   );
 }
 
