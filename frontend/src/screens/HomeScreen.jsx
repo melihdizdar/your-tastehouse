@@ -27,13 +27,13 @@ export default function HomeScreen() {
                         <li>
                             <img src={slider} alt="slider1" data-uk-cover data-uk-img className="uk-width-1-1 uk-height-1-1"/>
                             <div className="uk-position-center-left uk-position-small uk-text-center slider-text-align uk-light">
-                                <h3 className="uk-margin-remove">Buğdaydan gelen lezzetler</h3>
+                                <h3 className="uk-margin-remove header">Buğdaydan gelen lezzetler</h3>
                             </div>
                         </li>
                         <li>
                             <img src={slider2} alt="slider2" data-uk-cover data-uk-img className="uk-width-1-1 uk-height-1-1"/>
                             <div className="uk-position-center-left uk-position-small uk-text-center slider-text-align uk-light">
-                                <h3 className="uk-margin-remove">El yapımı ürünler</h3>
+                                <h3 className="uk-margin-remove header">El yapımı ürünler</h3>
                             </div>
                         </li>
                     </ul>
@@ -46,12 +46,12 @@ export default function HomeScreen() {
                 <div className="uk-container">
                     <div className="uk-margin-auto uk-flex-center uk-text-center uk-text-emphasis uk-grid-small" data-uk-grid>
                         <div className="uk-padding-remove">
-                            <h2 className="uk-width-1-1 text-decoration">
+                            <h2 className="uk-width-1-1 text-decoration header">
                                 LEZZET EVİNİZ
                             </h2>
                         </div>
                         <p className="uk-padding-remove">
-                        Yemek yapmak bir aşktır.Birbirinden lezzetli sofralar kurmak için en önem verdiğimiz şey tabi ki sevgimiz.'Lezzet Eviniz' olarak tamamen doğal ürünlerden oluşan ürünlerimizle eşsiz tatları mutfaklarınıza taşıyoruz.Ürünlerimizin malzemeleri Anadolu'da yaşayan emekçi kadınlar tarafından üretilip mutfağımızda buluşuyor.Ve bu ürünler sayesinde yöresel lezzetlerin en güzel ve en özel tariflerini sizlere sunarak,görkemli bir ziyafet deneyimi yaşamanızı garanti ediyoruz.
+                            Yemek yapmak bir aşktır.Birbirinden lezzetli sofralar kurmak için en önem verdiğimiz şey tabi ki sevgimiz.'Lezzet Eviniz' olarak tamamen doğal ürünlerden oluşan ürünlerimizle eşsiz tatları mutfaklarınıza taşıyoruz.Ürünlerimizin malzemeleri Anadolu'da yaşayan emekçi kadınlar tarafından üretilip mutfağımızda buluşuyor.Ve bu ürünler sayesinde yöresel lezzetlerin en güzel ve en özel tariflerini sizlere sunarak,görkemli bir ziyafet deneyimi yaşamanızı garanti ediyoruz.
                         </p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ export default function HomeScreen() {
                 <div className="uk-container">
                     <div className="uk-margin-auto uk-flex-center uk-text-center uk-text-emphasis uk-grid-small" data-uk-grid>
                         <div className="uk-padding-remove">
-                            <h2 className="uk-width-1-1 text-decoration">
+                            <h2 className="uk-width-1-1 text-decoration header">
                                 EL YAPIMI ÜRÜNLER
                             </h2>
                         </div>
@@ -75,7 +75,7 @@ export default function HomeScreen() {
                                         <img src={icli_kofte} alt="icli_kofte" data-uk-img className="uk-width-1-1 uk-height-1-1"/>
                                     </div>
                                     <div className="uk-card-body">
-                                        <h3 className="uk-card-title text-decoration">İçli Köfte</h3>
+                                        <h3 className="uk-card-title text-decoration header">İçli Köfte</h3>
                                         <p>İster 5 çayının, ister akşam yemeğinin en özel vazgeçilmezi...</p>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@ export default function HomeScreen() {
                                         <img src={manti} alt="manti" data-uk-img className="uk-width-1-1 uk-height-1-1"/>
                                     </div>
                                     <div className="uk-card-body">
-                                        <h3 className="uk-card-title text-decoration">Mantı</h3>
+                                        <h3 className="uk-card-title text-decoration header">Mantı</h3>
                                         <p>Sarımsaklı yoğurt ve tereyağlı sosuyla hayır diyemiyeceğiniz en güzel lezzet...</p>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@ export default function HomeScreen() {
                                         <img src={borek} alt="borek" data-uk-img className="uk-width-1-1 uk-height-1-1"/>
                                     </div>
                                     <div className="uk-card-body">
-                                        <h3 className="uk-card-title text-decoration">Boşnak Böreği</h3>
+                                        <h3 className="uk-card-title text-decoration header">Boşnak Böreği</h3>
                                         <p>Kat kat açılıp, çıtır çıtır pişen efsane lezzet...</p>
                                     </div>
                                 </div>
@@ -108,7 +108,7 @@ export default function HomeScreen() {
                                         <img src={sarma} alt="sarma" data-uk-img className="uk-width-1-1 uk-height-1-1"/>
                                     </div>
                                     <div className="uk-card-body">
-                                        <h3 className="uk-card-title text-decoration">Zeytinyağlı Sarma</h3>
+                                        <h3 className="uk-card-title text-decoration header">Zeytinyağlı Sarma</h3>
                                         <p>Ege'nin en güzel zeytinyağlısıyla sofranıza ayrı bir lezzet katın...</p>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ export default function HomeScreen() {
                                         <img src={muhammara} alt="muhammara" data-uk-img className="uk-width-1-1 uk-height-1-1"/>
                                     </div>
                                     <div className="uk-card-body">
-                                        <h3 className="uk-card-title text-decoration">Muhammara</h3>
+                                        <h3 className="uk-card-title text-decoration header">Muhammara</h3>
                                         <p>En tatlı acılı muhammarayı denemeye hazırmısınız?</p>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@ export default function HomeScreen() {
                                         <img src={cocuk_menusu} alt="cocuk_menusu" data-uk-img className="uk-width-1-1 uk-height-1-1"/>
                                     </div>
                                     <div className="uk-card-body">
-                                        <h3 className="uk-card-title text-decoration">Çocuk Menüsü</h3>
+                                        <h3 className="uk-card-title text-decoration header">Çocuk Menüsü</h3>
                                         <p>Çocuklara özel acısız içli köfte..</p>
                                     </div>
                                 </div>
@@ -143,7 +143,7 @@ export default function HomeScreen() {
                 <div className="uk-container">
                     <div className="uk-margin-auto uk-flex-center uk-text-center uk-text-emphasis uk-grid-small" data-uk-grid>
                         <div className="uk-padding-remove">
-                            <h2 className="uk-width-1-1 text-decoration">
+                            <h2 className="uk-width-1-1 text-decoration header">
                                 ORGANİK ÜRÜNLER
                             </h2>
                         </div>
